@@ -5,7 +5,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     // Indent with 4 spaces
-    "indent": ["error", 4],
+    "indent": ["off", 4],
 
     // Indent JSX with 4 spaces
     "react/jsx-indent": ["error", 4],
